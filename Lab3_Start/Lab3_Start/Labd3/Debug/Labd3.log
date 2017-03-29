@@ -1,0 +1,23 @@
+﻿Build started 4/10/2015 2:58:45 PM.
+     1>Project "C:\Users\William_2\Documents\Visual Studio 2012\Projects\Lab3_Start\Lab3_Start\Labd3\Labd3.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         E:\VisualStudio\VC\bin\CL.exe /c /IE:\dev\openGL\freeglut\include /I"E:\dev\openGL\glew-1.11.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(95): error C2275: 'GLint' : illegal use of this type as an expression
+                 e:\dev\opengl\glew-1.11.0\include\gl\glew.h(277) : see declaration of 'GLint'
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(95): error C2146: syntax error : missing ')' before identifier 'shaderProgram'
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(96): error C2065: 'shaderProgram' : undeclared identifier
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(97): error C2065: 'shaderProgram' : undeclared identifier
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(98): error C2065: 'shaderProgram' : undeclared identifier
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(99): error C2065: 'shaderProgram' : undeclared identifier
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(101): error C2065: 'shaderProgram' : undeclared identifier
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(103): error C2065: 'shaderProgram' : undeclared identifier
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(105): error C2065: 'shaderProgram' : undeclared identifier
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(129): error C2065: 'shaderProgram' : undeclared identifier
+     1>c:\users\william_2\documents\visual studio 2012\projects\lab3_start\lab3_start\labd3\main.cpp(131): error C2065: 'shaderProgram' : undeclared identifier
+     1>Done Building Project "C:\Users\William_2\Documents\Visual Studio 2012\Projects\Lab3_Start\Lab3_Start\Labd3\Labd3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.33
