@@ -1,0 +1,19 @@
+﻿Build started 8/24/2015 8:11:21 PM.
+     1>Project "C:\Users\William_2\Documents\Visual Studio 2012\Projects\LightingLab\LightingLab\ShaderLab\ShaderLab.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         E:\VisualStudio\VC\bin\CL.exe /c /IE:\dev\openGL\freeglut\include /I"E:\dev\openGL\glew-1.11.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         E:\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\William_2\Documents\Visual Studio 2012\Projects\LightingLab\LightingLab\Debug\LightingLab.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\dev\openGL\freeglut\lib /LIBPATH:"E:\dev\openGL\glew-1.11.0\lib\Release\Win32" glew32.lib freeglut.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\William_2\Documents\Visual Studio 2012\Projects\LightingLab\LightingLab\Debug\LightingLab.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\William_2\Documents\Visual Studio 2012\Projects\LightingLab\LightingLab\Debug\LightingLab.lib" /MACHINE:X86 Debug\FPSCamera.obj
+         Debug\Light.obj
+         Debug\main.obj
+         Debug\MathHelper.obj
+         Debug\Model.obj
+         Debug\Shader.obj
+         ShaderLab.vcxproj -> C:\Users\William_2\Documents\Visual Studio 2012\Projects\LightingLab\LightingLab\Debug\LightingLab.exe
+     1>Done Building Project "C:\Users\William_2\Documents\Visual Studio 2012\Projects\LightingLab\LightingLab\ShaderLab\ShaderLab.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.88
